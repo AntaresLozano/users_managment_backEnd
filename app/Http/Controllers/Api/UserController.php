@@ -26,7 +26,6 @@ class UserController extends Controller
         $user->role = $request->role;
         $user->status = $request->status;
         $user->genero = $request->genero;
-        $user->email_verified_at = $request->email_verified_at;
         $user->password = $request->password;
         
 
